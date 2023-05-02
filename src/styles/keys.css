@@ -1,0 +1,22 @@
+.colors {
+    margin: 50px 400px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.color {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+.name {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 0.5rem;
+}

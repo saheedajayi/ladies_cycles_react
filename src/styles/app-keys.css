@@ -1,0 +1,34 @@
+.key_container{
+    margin: 50px 500px;
+    text-align: center;
+
+}
+
+.next_period, .flow_days,
+.ovulation_date, .fertile_periods,
+.safe_periods{
+    padding: 5px 0;
+}
+
+.next_period {
+    background-color: #ffd166;
+}
+
+.flow_days {
+    background-color: #06d6a0;
+}
+
+.ovulation_date {
+    color: white;
+    background-color: #073b4c;
+}
+
+.fertile_periods {
+    color: white;
+    background-color: #118ab2;
+}
+
+.safe_periods{
+    border: 2px solid black;
+    background-color: white;
+}

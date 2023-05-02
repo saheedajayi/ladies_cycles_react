@@ -1,0 +1,95 @@
+/*.calendar-container {*/
+/*    margin-top: 150px;*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*}*/
+
+/*.react-calendar {*/
+/*    padding:20px;*/
+/*    !*border-radius: 8px;*!*/
+/*    background-color: pink;*/
+/*    width: 600px;*/
+/*    max-width: 100%;*/
+/*    border: none;*/
+/*}*/
+
+/*.react-calendar__navigation {*/
+/*    height: 60px;*/
+/*    margin-bottom: 10px;*/
+/*    font-size: 20px;*/
+/*}*/
+
+
+/*.react-calendar__navigation button {*/
+/*    !*background-color: #0074d9;*!*/
+/*    background-color: black;*/
+/*    color: white;*/
+/*    font-weight: bold;*/
+/*    !*border-radius: 50%;*!*/
+/*    padding: 8px;*/
+/*    border: none;*/
+/*    margin: 0 10px;*/
+/*    cursor: pointer;*/
+/*}*/
+
+/*abbr[title] {*/
+/*    border-bottom: none !important;*/
+/*    cursor: inherit !important;*/
+/*    text-decoration: none !important;*/
+/*}*/
+
+/*.react-calendar__navigation button:hover {*/
+/*    !*background-color: #00549d;*!*/
+/*}*/
+
+/*.react-calendar__navigation button:disabled {*/
+/*    opacity: 0.5;*/
+/*    cursor: default;*/
+/*}*/
+
+.calendar-container {
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.react-calendar{
+    width:900px;
+    border: none;
+}
+
+.react-calendar__tile{
+    border-radius: 0 !important;
+    color: black;
+}
+
+.react-calendar__month-view__days{
+    height: 300px;
+}
+
+abbr[title]{
+    border-bottom: none !important;
+    text-decoration: none !important;
+}
+
+.react-calendar__navigation button {
+    background-color: #ef476f;
+    border-radius: 0 !important;
+}
+
+.next-period {
+    background-color: #ffd166;
+}
+
+.flow-days {
+    background-color: #06d6a0;
+}
+
+.ovulation-date {
+    background-color: #073b4c;
+    color: white;
+}
+
+.fertile-periods {
+    background-color: #118ab2;
+}
